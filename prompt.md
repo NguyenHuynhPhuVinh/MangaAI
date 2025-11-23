@@ -1,6 +1,6 @@
-# MẪU KỊCH BẢN MANGA AI (HYBRID: VIETNAMESE + ENGLISH TECH TERMS)
+# MẪU KỊCH BẢN MANGA AI (HYBRID + SCENE LOCK)
 
-Đây là mẫu kịch bản tối ưu: Sử dụng **Tiếng Việt** để mô tả nội dung cốt truyện (cho dễ viết), nhưng giữ nguyên các **Thuật ngữ kỹ thuật (Technical Terms)** bằng Tiếng Anh để AI hiểu chính xác lệnh về góc máy, biểu cảm và hiệu ứng.
+Đây là mẫu kịch bản tối ưu: Sử dụng **Tiếng Việt** để mô tả nội dung, **Tiếng Anh** cho thuật ngữ kỹ thuật, và **Cấu hình bối cảnh riêng từng ô** để khóa vị trí đồ vật.
 
 ---
 
@@ -11,14 +11,16 @@
 - **Text Language:** Vietnamese (Viết chính xác nội dung trong ngoặc kép).
 - **Nhân vật A:** [Tên] (Kèm ảnh Ref).
 - **Nhân vật B:** [Tên] (Kèm ảnh Ref).
-- **Bối cảnh (Scene Config):** [Mô tả ngắn gọn hoặc đính kèm ảnh Map/Background].
 
 ---
 
 ## 2. NỘI DUNG CHI TIẾT (PANEL SCRIPT)
 
+> **QUY TẮC:** Để tránh AI vẽ sai vị trí, hãy mô tả lại vị trí bàn ghế ở dòng **Scene Config** (hoặc ghi "Giống Panel 1").
+
 ### PANEL 1 (Ô 1)
 
+- **Scene Config (Bối cảnh):** [Mô tả vị trí cố định: Bàn A bên Trái, Bàn B bên Phải...].
 - **Visual (Mô tả cảnh):** [Mô tả hành động nhân vật bằng tiếng Việt].
 - **Camera (Góc máy):** [Wide Shot / Medium Shot / Close-up].
 - **Expression (Biểu cảm):** [Nhập từ khóa tiếng Anh - xem Cheat Sheet].
@@ -28,6 +30,7 @@
 
 ### PANEL 2 (Ô 2)
 
+- **Scene Config:** [Giữ nguyên cấu hình Panel 1 / Hoặc thay đổi nếu đổi góc].
 - **Visual:** [Mô tả hành động bằng tiếng Việt].
 - **Camera:** [...]
 - **Expression:** [...]
@@ -37,6 +40,7 @@
 
 ### PANEL 3 (Ô 3)
 
+- **Scene Config:** [Background mờ / Focus vào mặt nhân vật].
 - **Visual:** [Mô tả hành động bằng tiếng Việt].
 - **Camera:** [...]
 - **Expression:** [...]
@@ -46,6 +50,7 @@
 
 ### PANEL 4 (Ô 4)
 
+- **Scene Config:** [Quay lại cấu hình Panel 1].
 - **Visual:** [Mô tả hành động bằng tiếng Việt].
 - **Camera:** [...]
 - **Expression:** [...]
@@ -57,8 +62,6 @@
 
 ## 📝 VÍ DỤ MẪU: KỊCH BẢN "FIX BUG LÚC 5 GIỜ CHIỀU"
 
-_Lưu ý: Các từ in đậm là thuật ngữ Manga AI cần giữ nguyên._
-
 **1. THIẾT LẬP CHUNG**
 
 - **Format:** 4-Koma Manga.
@@ -68,72 +71,67 @@ _Lưu ý: Các từ in đậm là thuật ngữ Manga AI cần giữ nguyên._
 
 **PANEL 1**
 
-- **Visual:** Junior đang đeo balo, tay cầm mũ bảo hiểm, cười tươi rói chào Senior. Đồng hồ trên tường chỉ 17:00.
-- **Camera:** **Medium Shot** (Trung cảnh).
+- **Scene Config:** Văn phòng IT, Junior ngồi bàn bên Trái, Senior ngồi bàn bên Phải.
+- **Visual:** Junior đang đeo balo, tay cầm mũ bảo hiểm, cười tươi rói chào Senior. Đồng hồ chỉ 17:00.
+- **Camera:** **Medium Shot**.
 - **Expression:** **Excited, big smile**.
-- **Manpu/VFX:** **Sparkles** (Lấp lánh), **Flower Aura** (Hào quang hoa hòe).
-- **Dialogue:** "5 giờ rồi! Em về trước nha anh, nay có hẹn đi net!"
+- **Manpu/VFX:** **Sparkles** (Lấp lánh).
+- **Dialogue:** "5 giờ rồi! Em về trước nha anh!"
 - **SFX:** HAPPY!
 
 **PANEL 2**
 
-- **Visual:** Senior ngồi quay lưng, tay vẫn gõ phím, không thèm quay lại nhìn.
-- **Camera:** **Over-the-shoulder Shot** (Góc nhìn qua vai).
+- **Scene Config:** **GIỮ NGUYÊN (Junior Trái, Senior Phải)**.
+- **Visual:** Senior ngồi quay lưng, tay vẫn gõ phím, không thèm nhìn.
+- **Camera:** **Over-the-shoulder Shot** (Nhìn qua vai Junior).
 - **Expression:** **Dark face, scary**.
-- **Manpu/VFX:** **Gloom Lines** (Sọc u ám), **Dark Aura** (Hào quang đen).
+- **Manpu/VFX:** **Gloom Lines** (Sọc u ám).
 - **Dialogue:** "Khoan. Khách hàng vừa báo lỗi Critical."
 - **SFX:** TAP TAP TAP...
 
 **PANEL 3**
 
-- **Visual:** Junior đứng hình, hóa đá ngay tại cửa. Mũ bảo hiểm rơi khỏi tay.
-- **Camera:** **Low Angle** (Góc thấp tạo vẻ kịch tính).
+- **Scene Config:** **Background mờ đi (Blurred Background)**.
+- **Visual:** Junior đứng hình, mũ bảo hiểm rơi khỏi tay.
+- **Camera:** **Low Angle, Extreme Close-up**.
 - **Expression:** **Shocked, pale face, soul leaving body**.
-- **Manpu/VFX:** **Vertical Lines** (Sọc dọc trên mặt), **Focus Lines Background**.
+- **Manpu/VFX:** **Vertical Lines, Focus Lines**.
 - **Dialogue:** "Dạ...???"
-- **SFX:** THUD (Tiếng đồ rơi).
+- **SFX:** THUD
 
 **PANEL 4**
 
-- **Visual:** Cả hai người ngồi lại bàn làm việc. Trời ngoài cửa sổ đã tối đen. Senior bình thản uống cafe, Junior thì khóc ròng.
-- **Camera:** **Wide Shot** (Toàn cảnh phòng).
+- **Scene Config:** **QUAY LẠI CẤU HÌNH PANEL 1 (Junior Trái, Senior Phải)**.
+- **Visual:** Trời tối đen. Senior uống cafe, Junior khóc ròng tại bàn làm việc.
+- **Camera:** **Wide Shot**.
 - **Expression:** **Crying rivers, dead eyes**.
-- **Manpu/VFX:** **Ghost Spirit Escaping** (Hồn bay khỏi xác).
-- **Dialogue:** (Junior) "Tạm biệt rank Kim Cương..."
+- **Manpu/VFX:** **Ghost Spirit Escaping**.
+- **Dialogue:** "Tạm biệt rank Kim Cương..."
 - **SFX:** SOB SOB...
 
 ---
 
-## 💡 TỪ ĐIỂN THUẬT NGỮ (CHEAT SHEET) ĐỂ COPY NHANH
-
-_Copy các từ khóa tiếng Anh này dán vào dòng tương ứng để AI vẽ chuẩn style Manga._
+## 💡 TỪ ĐIỂN THUẬT NGỮ (CHEAT SHEET)
 
 ### 1. Góc máy (Camera)
 
-- **Wide Shot:** Toàn cảnh (thấy cả phòng, vị trí ngồi).
-- **Medium Shot:** Trung cảnh (từ thắt lưng lên, dùng khi hội thoại).
-- **Close-up:** Cận cảnh (nhấn mạnh mặt/biểu cảm).
-- **Extreme Close-up:** Siêu cận (chỉ thấy mắt hoặc miệng).
-- **Low Angle:** Góc thấp (nhìn từ dưới lên, tạo vẻ uy lực hoặc sốc).
-- **Over-the-shoulder:** Góc nhìn qua vai người này thấy người kia.
+- **Wide Shot:** Toàn cảnh.
+- **Medium Shot:** Trung cảnh.
+- **Close-up:** Cận cảnh.
+- **Extreme Close-up:** Siêu cận.
+- **Low Angle:** Góc thấp.
+- **Over-the-shoulder:** Góc nhìn qua vai.
 
 ### 2. Biểu cảm nhân vật (Expression Keywords)
 
-- **Nhóm Vui:** `Sparkling eyes` (Mắt lấp lánh), `Excited`, `Smug face` (Mặt tự mãn/đắc ý), `Cat mouth :3`.
-- **Nhóm Buồn/Sốc:** `Pale face` (Tái mét), `Blank white eyes` (Mắt trắng dã), `Soul leaving body` (Hồn bay), `Petrified` (Hóa đá), `Crying waterfalls` (Khóc như mưa).
-- **Nhóm Giận/Áp lực:** `Popping vein` (Nổi gân máu), `Shadow over eyes` (Mặt tối sầm), `Scary smile` (Cười nguy hiểm), `Dead fish eyes` (Mắt cá chết - chán đời).
+- **Vui:** `Sparkling eyes`, `Excited`, `Smug face`, `Cat mouth :3`.
+- **Sốc/Buồn:** `Pale face`, `Blank white eyes`, `Soul leaving body`, `Petrified`, `Crying waterfalls`.
+- **Giận/Áp lực:** `Popping vein`, `Shadow over eyes`, `Scary smile`, `Dead fish eyes`.
 
-### 3. Ký hiệu Manga (Manpu)
+### 3. Hiệu ứng nền (Background VFX)
 
-- **Sweat Drop:** Giọt mồ hôi to bên thái dương (bối rối/lo lắng).
-- **Popping Vein Symbol:** Ký hiệu ngã tư (💢) trên trán (tức giận).
-- **Gloom Lines / Vertical Lines:** Sọc dọc trên mặt hoặc nền (trầm cảm/thất vọng).
-- **Nosebleed:** Chảy máu mũi (phấn khích).
-
-### 4. Hiệu ứng nền (Background VFX)
-
-- **Speed Lines:** Các đường kẻ song song (thể hiện tốc độ/hành động nhanh).
-- **Focus Lines / Sunburst:** Các đường tia tập trung vào giữa (nhấn mạnh cú sốc/tuyên bố).
-- **Solid Color Background:** Nền màu trơn (loại bỏ chi tiết phòng để làm nổi bật nhân vật).
-- **Dark Aura / Purple Aura:** Hào quang đen/tím bao quanh (sát khí hoặc u ám).
-- **Motion Blur:** Làm mờ chuyển động.
+- **Speed Lines:** Đường tốc độ.
+- **Focus Lines / Sunburst:** Đường tập trung.
+- **Solid Color Background:** Nền màu trơn.
+- **Dark Aura:** Hào quang đen.
+- **Motion Blur:** Mờ chuyển động.
