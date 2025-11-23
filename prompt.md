@@ -9,6 +9,7 @@
 - **Format:** 4-Koma Manga (Vertical Strip).
 - **Style:** Anime Style, [Black & White / Full Color].
 - **Text Language:** Vietnamese (Viết chính xác nội dung trong ngoặc kép).
+- **SFX Language:** Vietnamese.
 - **Nhân vật A:** [Tên] (Kèm ảnh Ref).
 - **Nhân vật B:** [Tên] (Kèm ảnh Ref).
 - **Bối cảnh:** [Mô tả ngắn gọn hoặc đính kèm ảnh Map/Background].
